@@ -1,7 +1,7 @@
-FROM rust:1.31
+FROM rust:latest
 
-WORKDIR /src/myapp
-COPY . .
+ADD . /string_rust
+WORKDIR /string_rust
 
 RUN cargo install --path .
 
