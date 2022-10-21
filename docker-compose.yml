@@ -1,0 +1,18 @@
+services:
+  gateway:
+    build: ./gateway
+    depends_on:
+      - "math_py"
+      - "string_rust"
+    ports:
+      - "5001:5000"
+
+  string_rust: 
+    build: ./string_rust
+    ports: 
+      - "5002:5000"
+
+  math_py:
+    build: ./math_py
+    ports:
+      - "5003:5000"
