@@ -1,3 +1,3 @@
-GATEWAY_URL = 'http://xxx' + # add <PORT1>
-MATH_URL = 'http://yyy' + # add <PORT2>
-STRING_URL = 'http://zzz' + # add <PORT3>
+GATEWAY_URL = 'http://xxx' + 5002
+MATH_URL = 'http://yyy' + 5001
+STRING_URL = 'http://zzz' + 5003
