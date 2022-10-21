@@ -1,3 +1,3 @@
-GATEWAY_URL = 'http://gateway' + ":5000"
-MATH_URL = 'http://math' + ':5000'
-STRING_URL = 'http://string' + ':5000'
+GATEWAY_URL = 'http://gateway:' + '5000' # add <PORT1>
+MATH_URL = 'http://math_py:' + '5000' # add <PORT2>
+STRING_URL = 'http://string_rust:' + '5000' # add <PORT3>
